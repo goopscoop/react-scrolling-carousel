@@ -1,0 +1,30 @@
+{
+  "name": "react-scrolling-carousel",
+  "version": "1.0.0",
+  "description": "A horizontally scrolling carousel component for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goopscoop/react-scrolling-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "carousel",
+    "images",
+    "scolling",
+    "component"
+  ],
+  "author": "goopscoop <codybarrus@gmail.com> (http://codybarrus.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goopscoop/react-scrolling-carousel/issues"
+  },
+  "homepage": "https://github.com/goopscoop/react-scrolling-carousel#readme",
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}
