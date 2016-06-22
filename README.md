@@ -9,7 +9,7 @@ Renders standard horizontal scrolling image carousel. Images have a max height, 
 ###### Basic Implementation
 ```JSX
 import React from 'react';
-import Carousel from '@concur/nui-widgets';
+import Carousel from 'react-scrolling-carousel';
 
 export default React.createClass({
 
