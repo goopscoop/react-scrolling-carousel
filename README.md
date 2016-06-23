@@ -24,6 +24,10 @@ export default React.createClass({
 #### Carousel Configuration
 * **images:** `PropTypes.array` An array of image paths.
 * **maxHeight** `PropTypes.string` Max height of images. Defaults to 450px.
+* **altText** `PropTypes.string` A custom alt tag that will be applied to each image. Will appened each tag with ' - 1' or the number of the img index. So if altText is 'image' will generate 'image - 0', etc. Defaults to Screenshot
 
 #### Helper Classes
-* `.image-carousel-container` The class for the wrapper div. Can use this to implement media queries, and other customizations, etc.
+* `.carousel-container-outer` The class for the outter wrapper div. Can use this to implement media queries, and other customizations, etc.
+* `carousel-container-inner` The class for the inner wrapper div.
+* `.carousel-image-container` The div that wraps each image.
+* `.carousel-image` Each image
